@@ -1,0 +1,209 @@
+{
+  "categorias": [
+    {
+      "titulo": "Engine Unity 3D",
+      "link": "https://unitydozeroaoprofissional.com.br/",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Renzk cria jogos sempre com muita zueira",
+        "url": "https://www.youtube.com/watch?v=EQ6m0G0bXss&list=PUjh-a_yuBwvhkiltrWrucjg"
+      },
+      "videos": [
+        {
+          "titulo": "Você gostaria de se tornar um Game Developer também ?",
+          "url": "https://www.youtube.com/watch?v=hY0i8BYDabM"
+        },
+        {
+          "titulo": "RECRIANDO MINEIRINHO SÓ QUE 1000X MELHOR!",
+          "url": "https://www.youtube.com/watch?v=mEIstYBiLUo"
+        },
+        {
+          "titulo": "TENTANDO RECRIAR O FORTNITE EM 1 HORA!",
+          "url": "https://www.youtube.com/watch?v=UxO9Tu6bydc"
+        },
+        {
+          "titulo": "CRIANDO UM JOGO DOS VINGADORES ULTIMATO! (Em 24hrs)",
+          "url": "https://www.youtube.com/watch?v=I_V_iOhammg"
+        },
+        {
+          "titulo": "CRIANDO UM JOGO DO NEYMAR! (Pepsiman)",
+          "url": "https://www.youtube.com/watch?v=PN9R60l3lwM"
+        },
+        {
+          "titulo": "CRIANDO UM JOGO DO NOVO CORINGA!",
+          "url": "https://www.youtube.com/watch?v=fpgGHX1P4dE"
+        },
+        {
+          "titulo": "CRIANDO MEU PRIMEIRO JOGO DE CELULAR! (ANDROID)",
+          "url": "https://www.youtube.com/watch?v=eDYZmgTgoIk"
+        },
+        {
+          "titulo": "CRIEI UM JOGO DE TERROR DO GAMES EDUUU!",
+          "url": "https://www.youtube.com/watch?v=0W_YpiBsiaA&list=PUjh-a_yuBwvhkiltrWrucjg&index=14"
+        }        
+      ]
+    },
+    {
+      "titulo": "Pixel Art",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Game Desenvolvedor e Artista de Pixel Art",
+        "url": "http://dyagames.com/"
+      },
+      "videos": [
+        {
+          "titulo": "PIXEL ART TIME LAPSE #168 - Industrial Video Game Assets",
+          "url": "https://www.youtube.com/watch?v=omQN3DU5p5g&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=31"
+        },
+        {
+          "titulo": "PIXEL ART TIME LAPSE #166 - Corpse Party 2: Dead Patient",
+          "url": "https://www.youtube.com/watch?v=QyjXl6ReY_M&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=33"
+        },
+        {
+          "titulo": "PIXEL ART TIME LAPSE #164 - Pokemon Sword and Shield",
+          "url": "https://www.youtube.com/watch?v=R8TSBYbw7NE&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=35"
+        },
+        {
+          "titulo": "PIXEL ART TIME LAPSE #155 - Dark Fantasy Altar Tileset Mockup",
+          "url": "https://www.youtube.com/watch?v=FPANPItYWCA&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=44"
+        }, 
+        {
+          "titulo": "PIXEL ART TIME LAPSE #151 - Character Design for Video Games",
+          "url": "https://www.youtube.com/watch?v=JcDrSRq8nFk&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=48"
+        }
+      ]
+    },
+    {
+      "titulo": "Game Maker 2D",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Desenvolvedores de Games em 2D",
+        "url": "https://cursos.dankicode.com/curso-dev-games"
+      },
+      "videos": [
+        {
+          "titulo": "FIZ UM JOGO DO MINEIRINHO EM 2D",
+          "url": "https://www.youtube.com/watch?v=1QtgOymTU_E"
+        },
+        {
+          "titulo": "refiz meu jogo favorito em 5 horas com a grande família",
+          "url": "https://www.youtube.com/watch?v=wJql7LwUmsU&t=8s"
+        },
+        {
+          "titulo": "fiz um jogo inteiro em um mês e sobrevivi (e lancei na steam)",
+          "url": "https://www.youtube.com/watch?v=opBd-Oa6wMk&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=5"
+        },
+        {
+          "titulo": "fiz um jogo caótico da ana maria braga?",
+          "url": "https://www.youtube.com/watch?v=qGRYryK95gU&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=4"
+        },
+        {
+          "titulo": "fiz um jogo do chorão no undertale em 6 horas",
+          "url": "https://www.youtube.com/watch?v=Brnrgzj7SrU&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=8"
+        },
+        {
+          "titulo": "FIZ UM JOGO EM 10 DIAS - COMEBACK",
+          "url": "https://www.youtube.com/watch?v=PZUaRZJJNhg"
+        },
+        {
+          "titulo": "EU VOU LANÇAR MEU PRIMEIRO JOGO - TRAPSTAR ADVENTURES",
+          "url": "https://www.youtube.com/watch?v=mJyL2Vo-0Bs"
+        },
+        {
+          "titulo": "Criei um jogo em 15 dias e (quase) fracassei na GAME JAAJ",
+          "url": "https://www.youtube.com/watch?v=RFDUGjViWnI"
+        },
+        {
+          "titulo": "5 JOGOS DESENVOLVIDOS POR UMA PESSOA SÓ | CRIE SEUS JOGOS",
+          "url": "https://www.youtube.com/watch?v=H2DgeLf7U4M"
+        }
+      ]
+    },
+    {
+      "titulo": "Alguns jogos Nascionais",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "COMO DESENVOLVER SEUS PRÓPRIOS JOGOS",
+          "url": "https://www.youtube.com/watch?v=kifRj1vAB_w"
+        },
+        {
+          "titulo": "Starboy Adventures Teaser",
+          "url": "https://www.youtube.com/watch?v=G7_KuJZ-Ptk"
+        },
+        {
+          "titulo": "Comeback - Jam Trailer",
+          "url": "https://www.youtube.com/watch?v=p72pBBmJBcc"
+        },
+        {
+          "titulo": "Horizon Chase Turbo - Launch Trailer PS4",
+          "url": "https://www.youtube.com/watch?v=4VomFVNGgnA"
+        },
+        {
+          "titulo": "5 JOGOS BRASILEIROS INCRÍVEIS! 🇧🇷",
+          "url": "https://www.youtube.com/watch?v=fHckZw-GRqQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
