@@ -29,8 +29,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    console.log('alo brasil');
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+    ? 'https://localhost:8080/categorias'
+    : 'https://wyverdevreact.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
