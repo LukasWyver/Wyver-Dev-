@@ -38,25 +38,6 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-
-    /* setTimeout(() => {
-      setCategorias([
-        ...categorias,
-        {
-          id: 1,
-          nome: 'Engine Unity 3D',
-          descricao: 'Engine muito utilizada para desenvolver vários jogos',
-          cor: '#cbd1ff',
-        },
-
-        {
-          id: 1,
-          nome: 'Pixel Art',
-          descricao: 'A arte de desenhar com poucos pixels, muito utilizada em jogos indies',
-          cor: '#cbd1ff',
-        },
-      ]);
-    }, 4 * 1000); */
   }, []);
 
   return (
