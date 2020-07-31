@@ -1,18 +1,30 @@
 {
     "categorias":[
-    {
-    "id":1,
-    "nome": "Engine Unity 3D",
-    "descricao": "Engine muito utilizada para desenvolver vários jogos",
-    "cor": "#cbd1ff"
+        {
+        "id":1,
+        "nome": "Engine Unity 3D",
+        "descricao": "Engine muito utilizada para desenvolver vários jogos",
+        "cor": "#cbd1ff"
     },
 
     {
-    "id":2,
-    "nome": "Pixel Art",
-    "descricao": "A arte de desenhar com poucos pixels, muito utilizada em jogos indies",
-    "cor": "#cbd1ff"
-     }
+        "id":2,
+        "nome": "Pixel Art",
+        "descricao": "A arte de desenhar com poucos pixels, muito utilizada em jogos indies",
+        "cor": "#cbd1ff"
+    },
+    {
+        "id":3,
+        "nome": "Game Maker 2D",
+        "descricao": "Uma ínclivel engine para criação de jogos em 2D",
+        "cor": "#cbd1ff"
+    }
+        {
+        "id":4,
+        "nome": "Jogos nascionais",
+        "descricao": "Alguns íncriveis jogos produzidos por equipes ou apenas uma pessoa, feitos no Brasil",
+        "cor": "#cbd1ff"
+    }
 
 ]
 }
