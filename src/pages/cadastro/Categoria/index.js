@@ -1,119 +1,131 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     nome: '',
-    descricao:'',
+    descricao: '',
     cor: '',
-  }
+  };
   const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresIniciais);
 
-
   function setValue(chave, valor) {
-  //chave: nome, descricao, bla,bli 
+  // chave: nome, descricao, bla,bli
     setValues({
       ...values,
-      [chave]: valor, //nome:'valor'
-    })
+      [chave]: valor, // nome:'valor'
+    });
   }
-  
-  function handleChange (infosDoEvento){
+
+  function handleChange(infosDoEvento) {
     setValue(
       infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value
+      infosDoEvento.target.value,
     );
   }
 
-return(
-   <PageDefault>
-       <h1>Cadastro de Categoria: {values.nome} </h1> 
+  useEffect(() => {
+    console.log('alo brasil');
+    const URL = 'http://localhost:8080/categorias';
+    fetch(URL)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
 
-       <form onSubmit = {function handleSubmit (infosDoEvento) {
-         infosDoEvento.preventDefault();
-         setCategorias([
-           ...categorias,
-           values
-         ]);
-          setValues({valoresIniciais})
-         }}> 
+    /* setTimeout(() => {
+      setCategorias([
+        ...categorias,
+        {
+          id: 1,
+          nome: 'Engine Unity 3D',
+          descricao: 'Engine muito utilizada para desenvolver vários jogos',
+          cor: '#cbd1ff',
+        },
 
-         <FormField
-            label="Nome da Categoria"
-            type="text"
-            name="nome"
-            value={values.nome}
-            onChange={handleChange}
-          />
+        {
+          id: 1,
+          nome: 'Pixel Art',
+          descricao: 'A arte de desenhar com poucos pixels, muito utilizada em jogos indies',
+          cor: '#cbd1ff',
+        },
+      ]);
+    }, 4 * 1000); */
+  }, []);
+
+  return (
+    <PageDefault>
+      <h1>
+        Cadastro de Categoria:
+        {values.nome}
+      </h1>
+
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
+        setValues({ valoresIniciais });
+      }}
+      >
 
         <FormField
-            label="Descrição:"
-            type="text"
-            name="descricao"
-            value={values.descricao}
-            onChange={handleChange}
-          />
+          label="Nome da Categoria"
+          type="text"
+          name="nome"
+          value={values.nome}
+          onChange={handleChange}
+        />
 
-          {/*}
-          <div>
-            <label>
-              Descrição:
-            <input
-                type="text"
-                value= {values.descricao}
-                name="descricao"
-                onChange={handleChange}
-                />
-             </label>
-          </div>
-          */}
-          
-         <FormField
-            label="Cor"
-            type="color"
-            name="cor"
-            value={values.cor}
-            onChange={handleChange}
-          />
+        <FormField
+          label="Descrição:"
+          type="textarea"
+          name="descricao"
+          value={values.descricao}
+          onChange={handleChange}
+        />
 
-          {/*
-          <div>
-            <label>
-              Cor:
-            <input
-                type="color"
-                value= {values.cor}
-                name="cor"
-                onChange={handleChange}
-                />
-             </label>
-          </div>
-          */}
+        <FormField
+          label="Cor"
+          type="color"
+          name="cor"
+          value={values.cor}
+          onChange={handleChange}
+        />
 
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          {/* Carregando */}
+          Loading...
+        </div>
+      )}
+
       <ul>
-        {categorias.map((categoria,indice) => {
-          return (
-            <li key= {`${categoria}${indice}`}>  
-              {categoria.nome}
-            </li>
-           )
-        })}
+        {categorias.map((categoria) => (
+          <li key={`${categoria.nome}`}>
+            {categoria.nome}
+          </li>
+        ))}
       </ul>
 
-     <Link to = "/">
-            Ir para a página inicial
+      <Link to="/">
+        Ir para a página inicial
       </Link>
     </PageDefault>
-       
-    )
-  }
 
-  export default CadastroCategoria;
+  );
+}
+
+export default CadastroCategoria;
