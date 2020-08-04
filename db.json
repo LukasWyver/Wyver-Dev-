@@ -1,30 +1,212 @@
 {
-    "categorias":[
+    "categorias": [
         {
-        "id":1,
-        "nome": "Engine Unity 3D",
-        "descricao": "Engine muito utilizada para desenvolver vários jogos",
-        "cor": "#cbd1ff"
-    },
-
-    {
-        "id":2,
-        "nome": "Pixel Art",
-        "descricao": "A arte de desenhar com poucos pixels, muito utilizada em jogos indies",
-        "cor": "#cbd1ff"
-    },
-    {
-        "id":3,
-        "nome": "Game Maker 2D",
-        "descricao": "Uma ínclivel engine para criação de jogos em 2D",
-        "cor": "#cbd1ff"
-    }
+          "id": 1,
+          "titulo": "Engine Unity 3D",
+          "cor": "#6BD1FF",
+          "link_extra": {
+          "text": "Renzk cria jogos sempre com muita simplicidade mas divertidos",
+          "url": "https://www.youtube.com/watch?v=EQ6m0G0bXss&list=PUjh-a_yuBwvhkiltrWrucjg"
+          }
+        },
         {
-        "id":4,
-        "nome": "Jogos nascionais",
-        "descricao": "Alguns íncriveis jogos produzidos por equipes ou apenas uma pessoa, feitos no Brasil",
-        "cor": "#cbd1ff"
+          "id": 2,
+          "titulo": "Pixel Art",
+          "cor": "#00C86F",
+          "link_extra": {
+          "text": "Game Desenvolvedor e Artista de Pixel Art",
+          "url": "http://dyagames.com/"
+          }
+        },
+        {
+          "id": 3,
+          "titulo": "Game Maker 2D",
+          "cor": "#9cd33b",
+          "link_extra": {
+          "text": "Desenvolvedores de Games em 2D",
+          "url": "https://cursos.dankicode.com/curso-dev-games"
+          }
+        },
+        {
+  
+        "id": 4,
+          "titulo": "Alguns jogos Nascionais",
+          "cor": "orange"
+        },
+        {
+         "id": 5,
+         "titulo": "Games",
+         "cor": "red",
+         "link_extra": {
+         "text": "Formação de Jogos na Alura",
+         "url": "https://www.alura.com.br/formacao-jogos-unity"
+         }
+        }
+     ],
+  
+    "videos": [
+  
+      {
+        "id": 1,
+        "categoriaId": 1,
+        "titulo": "Você gostaria de se tornar um Game Developer também ?",
+        "url": "https://www.youtube.com/watch?v=hY0i8BYDabM"
+     },
+     {
+        "id": 2,
+        "categoriaId": 1,
+        "titulo": "RECRIANDO MINEIRINHO SÓ QUE 1000X MELHOR!",
+        "url": "https://www.youtube.com/watch?v=mEIstYBiLUo"
+       },
+     {
+       "id": 3,
+        "categoriaId": 1,
+        "titulo": "TENTANDO RECRIAR O FORTNITE EM 1 HORA!",
+        "url": "https://www.youtube.com/watch?v=UxO9Tu6bydc"
+     },
+     {
+        "id": 4,
+        "categoriaId": 1,
+        "titulo": "CRIANDO UM JOGO DOS VINGADORES ULTIMATO! (Em 24hrs)",
+        "url": "https://www.youtube.com/watch?v=I_V_iOhammg"
+     },
+    {
+        "id": 5,
+        "categoriaId": 1,
+        "titulo": "CRIANDO UM JOGO DO NEYMAR! (Pepsiman)",
+        "url": "https://www.youtube.com/watch?v=PN9R60l3lwM"
+     },
+    {
+        "id": 6,
+        "categoriaId": 1,
+        "titulo": "CRIANDO UM JOGO DO NOVO CORINGA!",
+        "url": "https://www.youtube.com/watch?v=fpgGHX1P4dE"
+     },
+    {
+       "id": 7,
+       "categoriaId": 1,
+        "titulo": "CRIANDO MEU PRIMEIRO JOGO DE CELULAR! (ANDROID)",
+        "url": "https://www.youtube.com/watch?v=eDYZmgTgoIk"
+    },
+    {
+        "id": 8,
+        "categoriaId": 1,
+        "titulo": "CRIEI UM JOGO DE TERROR DO GAMES EDUUU!",
+        "url": "https://www.youtube.com/watch?v=0W_YpiBsiaA&list=PUjh-a_yuBwvhkiltrWrucjg&index=14"
+    },
+    {
+        "id": 9,
+        "categoriaId": 2,
+        "titulo": "PIXEL ART TIME LAPSE #168 - Industrial Video Game Assets",
+        "url": "https://www.youtube.com/watch?v=omQN3DU5p5g&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=31"
+     },
+    {
+        "id": 10,
+        "categoriaId": 2,
+        "titulo": "PIXEL ART TIME LAPSE #166 - Corpse Party 2: Dead Patient",
+        "url": "https://www.youtube.com/watch?v=QyjXl6ReY_M&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=33"
+    },
+    {
+        "id": 11,
+        "categoriaId": 2,
+        "titulo": "PIXEL ART TIME LAPSE #164 - Pokemon Sword and Shield",
+        "url": "https://www.youtube.com/watch?v=R8TSBYbw7NE&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=35"
+    },
+    {
+        "id": 12,
+        "categoriaId": 2,
+        "titulo": "PIXEL ART TIME LAPSE #155 - Dark Fantasy Altar Tileset Mockup",
+        "url": "https://www.youtube.com/watch?v=FPANPItYWCA&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=44"
+    },
+    {
+        "id": 13,
+        "categoriaId": 2,
+        "titulo": "PIXEL ART TIME LAPSE #151 - Character Design for Video Games",
+        "url": "https://www.youtube.com/watch?v=JcDrSRq8nFk&list=PLW3C1_2FMmE05e0vR6yLtzHr8Xbiz26pc&index=48"
+    },
+    {
+        "id": 14,
+        "categoriaId": 3,
+        "titulo": "FIZ UM JOGO DO MINEIRINHO EM 2D",
+        "url": "https://www.youtube.com/watch?v=1QtgOymTU_E"
+    },
+    {
+        "id": 15,
+        "categoriaId": 3,
+        "titulo": "refiz meu jogo favorito em 5 horas com a grande família",
+        "url": "https://www.youtube.com/watch?v=wJql7LwUmsU&t=8s"
+    },
+    {
+        "id": 16,
+        "categoriaId": 3,
+        "titulo": "fiz um jogo inteiro em um mês e sobrevivi (e lancei na steam)",
+        "url": "https://www.youtube.com/watch?v=opBd-Oa6wMk&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=5"
+    },
+    {
+        "id": 17,
+        "categoriaId": 3,
+        "titulo": "fiz um jogo caótico da ana maria braga?",
+        "url": "https://www.youtube.com/watch?v=qGRYryK95gU&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=4"
+    },
+    {
+       "id": 18,
+       "categoriaId": 3,
+       "titulo": "fiz um jogo do chorão no undertale em 6 horas",
+       "url": "https://www.youtube.com/watch?v=Brnrgzj7SrU&list=PLiOozRWhHK7GiN957jsxDZgGF8PpeOV3_&index=8"
+    },
+    {
+        "id": 19,
+        "categoriaId": 3,
+        "titulo": "FIZ UM JOGO EM 10 DIAS - COMEBACK",
+        "url": "https://www.youtube.com/watch?v=PZUaRZJJNhg"
+    },
+    {
+        "id": 20,
+        "categoriaId": 3,
+        "titulo": "EU VOU LANÇAR MEU PRIMEIRO JOGO - TRAPSTAR ADVENTURES",
+        "url": "https://www.youtube.com/watch?v=mJyL2Vo-0Bs"
+    },
+    {
+        "id": 21,
+        "categoriaId": 3,
+        "titulo": "Criei um jogo em 15 dias e (quase) fracassei na GAME JAAJ",
+        "url": "https://www.youtube.com/watch?v=RFDUGjViWnI"
+    },
+    {
+        "id": 22,
+        "categoriaId": 3,
+        "titulo": "5 JOGOS DESENVOLVIDOS POR UMA PESSOA SÓ | CRIE SEUS JOGOS",
+        "url": "https://www.youtube.com/watch?v=H2DgeLf7U4M"
+    },
+    {
+        "id": 23,
+        "categoriaId": 4,
+        "titulo": "COMO DESENVOLVER SEUS PRÓPRIOS JOGOS",
+        "url": "https://www.youtube.com/watch?v=kifRj1vAB_w"
+    },
+    {
+        "id": 24,
+        "categoriaId": 4,
+        "titulo": "Starboy Adventures Teaser",
+        "url": "https://www.youtube.com/watch?v=G7_KuJZ-Ptk"
+    },
+    {
+        "id": 25,
+        "categoriaId": 4,
+        "titulo": "Comeback - Jam Trailer",
+        "url": "https://www.youtube.com/watch?v=p72pBBmJBcc"
+    },
+    {
+        "id": 26,
+        "categoriaId": 4,
+        "titulo": "Horizon Chase Turbo - Launch Trailer PS4",
+        "url": "https://www.youtube.com/watch?v=4VomFVNGgnA"
+    },
+    {
+        "id": 27,
+        "categoriaId": 4,
+        "titulo": "5 JOGOS BRASILEIROS INCRÍVEIS! 🇧🇷",
+        "url": "https://www.youtube.com/watch?v=fHckZw-GRqQ"
     }
-
-]
-}
+   ]
+  }

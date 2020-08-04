@@ -30,8 +30,8 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
-    ? 'https://localhost:8080/categorias'
-    : 'https://wyverdevreact.herokuapp.com/categorias';
+      ? 'https://localhost:8080/categorias'
+      : 'https://wyverdevreact.herokuapp.com/categorias';
     fetch(URL)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -96,8 +96,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
